@@ -1,0 +1,5 @@
+flask
+flask_restful
+flask_security_too
+flask_migrate
+flask_sqlalchemy
