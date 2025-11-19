@@ -1,0 +1,79 @@
+# ----------------------
+# Python / Flask
+# ----------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Flask instance folder (for app.db, config, etc.)
+backend/instance/
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+logs/
+celerybeat-schedule
+celerybeat.pid
+
+# ----------------------
+# Environment Files
+# ----------------------
+.env
+*.env
+
+# ----------------------
+# Redis dump files (optional)
+# ----------------------
+dump.rdb
+
+# ----------------------
+# Vue / Node
+# ----------------------
+node_modules/
+dist/
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vue auto-generated stuff
+frontend/node_modules/
+frontend/dist/
+
+# ----------------------
+# VS Code / Editor
+# ----------------------
+.vscode/
+.idea/
+*.swp
+
+# ----------------------
+# OS files
+# ----------------------
+Thumbs.db
+Desktop.ini
+
+# ----------------------
+# Python build artifacts
+# ----------------------
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+
+# ----------------------
+# WSL metadata (if any)
+# ----------------------
+*.bak
